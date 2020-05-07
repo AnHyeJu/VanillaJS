@@ -10,6 +10,14 @@ body {
   color: #ffffff;
 }
 
+.weather {
+  position: absolute;
+  top: 10;
+  left: 10;
+  font-weight: bold;
+  font-size: large;
+}
+
 .clicked {
   color: #7f8c8d;
 }
@@ -40,4 +48,33 @@ body {
   height: 100%;
   z-index: -1;
   animation: fadeIn 0.5s linear;
+}
+.content {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: 50%;
+  top: 50%;
+  margin-left: -250px;
+  margin-top: -250px;
+
+  /*border: #000 solid 1px;
+  background: #82713f;*/
+}
+
+.center {
+  text-align: center;
+}
+
+.time {
+  font-size: 70px;
+}
+
+.greetings {
+  font-size: 2em;
+}
+
+.font {
+  text-shadow: 1px 1px rgba(77, 76, 76, 0.596);
+  font-weight: bold;
 }
